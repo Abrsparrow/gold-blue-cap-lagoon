@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "GAST Cinema",
+      "hasCanvas": false,
+      "bodyTextLen": 1706,
+      "bodyTextHash": "9e9154d630c1c162d70018ac09906600a3a91b39da69500b87c129cba1a105f6",
+      "bodyTextPrefix": "GASTCINEMA Now showing Halls Visit Call CMC ROAD · ADDIS ABABA T",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "GAST Cinema",
+      "hasCanvas": false,
+      "bodyTextLen": 1668,
+      "bodyTextHash": "f86c9303596cf425c56888c582faa3a561a8d6077cdfcd06b267355738f2b8d0",
+      "bodyTextPrefix": "GASTCINEMA Call CMC ROAD · ADDIS ABABA The picture, as it was me",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "mobile: canvas disappeared"
+  ]
+}

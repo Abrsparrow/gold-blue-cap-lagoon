@@ -43,8 +43,8 @@ export function Popcorn2D() {
     const onAsset = () => { assetsReady += 1; };
     bucketImg.onload = onAsset;
     kernelImg.onload = onAsset;
-    bucketImg.src = "/media/popcorn-bucket.png";
-    kernelImg.src = "/media/popcorn-kernel.png";
+    bucketImg.src = "/media/popcorn-bucket.webp";
+    kernelImg.src = "/media/popcorn-kernel.webp";
 
     const resize = () => {
       const parent = canvas.parentElement;

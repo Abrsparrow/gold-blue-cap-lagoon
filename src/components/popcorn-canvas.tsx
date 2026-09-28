@@ -59,7 +59,7 @@ function spawn(s: KernelState, cursor: number, dirx: number, diry: number) {
 }
 
 function Bucket() {
-  const texture = useTexture("/media/popcorn-bucket.png");
+  const texture = useTexture("/media/popcorn-bucket.webp");
   texture.colorSpace = THREE.SRGBColorSpace;
   texture.anisotropy = 8;
   const mat = useMemo(
@@ -82,7 +82,7 @@ function Kernels({ pointer }: { pointer: MutableRefObject<{ x: number; y: number
   const last = useRef({ x: 0, y: 0 });
   const idle = useRef(0);
   const intro = useRef(1.4);
-  const texture = useTexture("/media/popcorn-kernel.png");
+  const texture = useTexture("/media/popcorn-kernel.webp");
   texture.colorSpace = THREE.SRGBColorSpace;
   texture.anisotropy = 4;
   const mat = useMemo(
